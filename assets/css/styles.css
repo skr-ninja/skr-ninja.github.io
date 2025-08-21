@@ -323,23 +323,28 @@ img {
 }
 
 /* ===== CONTACT =====*/
-.contact__input {
-  width: 100%;
+.contact-info {
+  text-align: center;
+  margin-top: 1rem;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
+  color: var(--second-color);
 }
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.contact-info a {
+  color: var(--first-color);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: hsl(var(--hue-color), 89%, 50%);
 }
 
 /* ===== FOOTER =====*/
